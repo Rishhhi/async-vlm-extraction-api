@@ -1,7 +1,7 @@
 # Asynchronous VLM Document Extraction API
 
 ## Overview
-This repository contains a prototype for a production-grade, asynchronous document extraction pipeline. It bypasses traditional, fragile OCR systems by utilizing a 4-bit quantized Vision-Language Model (Qwen-VL) to perform layout-aware data extraction, outputting strictly typed JSON.
+This repository contains a prototype for a asynchronous document extraction pipeline. It bypasses traditional, fragile OCR systems by utilizing a 4-bit quantized Vision-Language Model (Qwen-VL) to perform layout-aware data extraction, outputting strictly typed JSON.
 
 ## Architecture & System Design
 The system is designed with strict hardware constraints in mind, specifically targeting deployment on 16GB NVIDIA Tesla T4 GPUs.
