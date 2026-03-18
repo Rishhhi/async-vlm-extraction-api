@@ -1,8 +1,5 @@
 # Asynchronous VLM Document Extraction API
 
-**Author:** Rishi
-**Domain:** Machine Learning Engineering / Applied AI
-
 ## Overview
 This repository contains a prototype for a production-grade, asynchronous document extraction pipeline. It bypasses traditional, fragile OCR systems by utilizing a 4-bit quantized Vision-Language Model (Qwen-VL) to perform layout-aware data extraction, outputting strictly typed JSON.
 
