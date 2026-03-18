@@ -20,3 +20,5 @@ To run this Dockerized container in a production environment:
 ## Run Command
 ```bash
 docker run --gpus all -p 8000:8000 -d vlm-extraction-api
+
+![Gradio Interface Prototype](output.png)
